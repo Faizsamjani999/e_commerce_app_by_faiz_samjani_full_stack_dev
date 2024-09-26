@@ -1,0 +1,232 @@
+/* HomePage.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background-color: #e65b50;
+  }
+  
+  .hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.6;
+  }
+  
+  /* Categories Section */
+  .categories {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .categories h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .category-item {
+    width: 30%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .category-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .category-item:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .category-item {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .category-item {
+      width: 100%;
+    }
+  }
+  
+  /* Featured Products Section */
+  .featured-products {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .featured-products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    width: 30%;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .product-item h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .product-item p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ff6f61;
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .product-item {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-item {
+      width: 100%;
+    }
+  }
+  
+  /* Newsletter Section */
+  .newsletter {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ff6f61;
+    color: #fff;
+  }
+  
+  .newsletter h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter button:hover {
+    background-color: #e65b50;
+  }
+  
+  @media (max-width: 480px) {
+    .newsletter button {
+      margin-top: 10px;
+      width: 100%;
+    }
+  
+    .newsletter input[type="email"] {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+  

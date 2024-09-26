@@ -1,0 +1,41 @@
+.order-list {
+    padding: 20px;
+}
+
+.order-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+}
+
+.order-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-detail {
+    margin: 5px 0;
+}
+
+.order-detail strong {
+    color: #333;
+}
+
+.order-detail ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-detail li {
+    margin: 3px 0;
+}
+
+@media (max-width: 768px) {
+    .order-item {
+        padding: 10px;
+    }
+}

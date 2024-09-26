@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  main {
+    padding: 80px 20px 20px; /* Adjust padding to avoid content overlap with header */
+  }
+  

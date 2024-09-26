@@ -1,0 +1,30 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .dashboard h1 {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-widgets {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .widget {
+    background-color: #e0f2f1; /* Light green background */
+    border: 1px solid #004d40; /* Dark green border */
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+  }
+  
+  .widget h3 {
+    margin: 0 0 10px;
+  }
+  
+  .widget p {
+    font-size: 24px;
+    margin: 0;
+  }
+  
